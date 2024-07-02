@@ -36,7 +36,7 @@ def home():
             name = anchor_element.text.strip()
             name_ranking.append(name)
 
-    response_data = [{'name': name, 'profit': profit} for name, profit in zip(name_ranking, profit_ranking)]
+    response_data = [{'name': name, 'profit_in_million': profit} for name, profit in zip(name_ranking, profit_ranking)]
 
     return response_data
 
@@ -66,5 +66,6 @@ def references():
     return references_response
 
 # Run the Flask server
+
 if __name__ == '__main__':
     app.run(debug=True)
