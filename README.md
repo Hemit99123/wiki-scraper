@@ -1,4 +1,4 @@
-# wiki-scraper
+# Wiki Scraper - scraping wikipedia
 
 ## Check out my code-along video:
 
